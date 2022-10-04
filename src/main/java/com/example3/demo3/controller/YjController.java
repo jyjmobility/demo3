@@ -10,7 +10,7 @@ public class YjController {
 
     @RequestMapping("/")
     public  String mian(Model model){
-
+        System.out.println("zzzzz");
         return "main";
     }
 }
